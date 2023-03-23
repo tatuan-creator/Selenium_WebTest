@@ -1,0 +1,770 @@
+{
+  "id": "c4ee14f9-16bf-4634-b480-7ddc997d0a6f",
+  "version": "2.0",
+  "name": "Test_LogIn",
+  "url": "https://localhost:44301/LogIn/DangNhap",
+  "tests": [{
+    "id": "4ae3916a-e199-4fab-962e-022acfab1455",
+    "name": "TC1",
+    "commands": [{
+      "id": "837ba396-0bfb-4253-b218-8b4a4937dd6c",
+      "comment": "",
+      "command": "open",
+      "target": "/LogIn/DangNhap",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "47cf04d8-f05e-4f11-9fe1-c020d1138887",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "609x801",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "57f02e86-5ea6-486b-9042-273c14709b43",
+      "comment": "",
+      "command": "click",
+      "target": "id=User",
+      "targets": [
+        ["id=User", "id"],
+        ["name=User", "name"],
+        ["css=#User", "css:finder"],
+        ["xpath=//input[@id='User']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f7cdcd5-864a-4c27-a319-b56b90c37cf1",
+      "comment": "",
+      "command": "click",
+      "target": "id=Pass",
+      "targets": [
+        ["id=Pass", "id"],
+        ["name=Pass", "name"],
+        ["css=#Pass", "css:finder"],
+        ["xpath=//input[@id='Pass']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d823b19d-8f29-4df0-962c-09b9434abc3e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//input[@value='Đăng nhập']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "693be984-78fb-4991-8ab5-b0fb7aa94f95",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card-body > div:nth-child(2)",
+      "targets": [
+        ["css=.card-body > div:nth-child(2)", "css:finder"],
+        ["xpath=//div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7c7de892-6c02-442f-8225-1580091f6e99",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.card-body > div:nth-child(2)",
+      "targets": [
+        ["css=.card-body > div:nth-child(2)", "css:finder"],
+        ["xpath=//div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": "Tên đăng nhập trống"
+    }, {
+      "id": "1d688a70-d996-49cb-90f5-3a9ce76d5d40",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "310d906f-600c-4c87-8bca-35f3d80d1438",
+    "name": "TC2",
+    "commands": [{
+      "id": "a5d17c0a-1bb4-44a8-8d7f-e0ef9b63f315",
+      "comment": "",
+      "command": "open",
+      "target": "https://localhost:44301/LogIn/DangNhap",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6bc9d696-3461-4af3-97c1-ff7effb37cc7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "610x800",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "05af8a0e-7d2b-489f-893d-00e304f8d331",
+      "comment": "",
+      "command": "click",
+      "target": "id=User",
+      "targets": [
+        ["id=User", "id"],
+        ["name=User", "name"],
+        ["css=#User", "css:finder"],
+        ["xpath=//input[@id='User']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ced183ba-1ff3-4488-b717-4daa1410f61f",
+      "comment": "",
+      "command": "type",
+      "target": "id=User",
+      "targets": [
+        ["id=User", "id"],
+        ["name=User", "name"],
+        ["css=#User", "css:finder"],
+        ["xpath=//input[@id='User']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "admin"
+    }, {
+      "id": "e5932947-dee6-4420-a7e5-1c67fe27cd5e",
+      "comment": "",
+      "command": "click",
+      "target": "id=Pass",
+      "targets": [
+        ["id=Pass", "id"],
+        ["name=Pass", "name"],
+        ["css=#Pass", "css:finder"],
+        ["xpath=//input[@id='Pass']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "705c30c5-e000-4584-a59f-ea057c06e577",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//input[@value='Đăng nhập']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c276fa6c-5f34-481e-b2e6-331893bccd17",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card-body > div:nth-child(2)",
+      "targets": [
+        ["css=.card-body > div:nth-child(2)", "css:finder"],
+        ["xpath=//div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f54c49c1-5d8e-4d5b-b481-3cce23fc7280",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.card-body > div:nth-child(2)",
+      "targets": [
+        ["css=.card-body > div:nth-child(2)", "css:finder"],
+        ["xpath=//div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": "Định dạng tên đăng nhập không hợp lệ"
+    }, {
+      "id": "70d953d3-ef6b-4e62-b29c-cbe653b17ea7",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "1cf23fa5-571f-48cc-bdfe-d9c022fa3d89",
+    "name": "TC3",
+    "commands": [{
+      "id": "ab1105e1-038e-4e9d-af7e-0c9c35e94bf0",
+      "comment": "",
+      "command": "open",
+      "target": "https://localhost:44301/LogIn/DangNhap",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "282455e9-4162-4a6a-baaf-7f0f87db3b6f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "614x800",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "923d178f-c7ad-4666-9e7a-a9d7e803cf56",
+      "comment": "",
+      "command": "click",
+      "target": "id=User",
+      "targets": [
+        ["id=User", "id"],
+        ["name=User", "name"],
+        ["css=#User", "css:finder"],
+        ["xpath=//input[@id='User']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ea43be8b-6d8a-4c2a-8a7d-423c0796b615",
+      "comment": "",
+      "command": "type",
+      "target": "id=User",
+      "targets": [
+        ["id=User", "id"],
+        ["name=User", "name"],
+        ["css=#User", "css:finder"],
+        ["xpath=//input[@id='User']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "admin@gmail.com"
+    }, {
+      "id": "d2cecd6e-18ca-4bab-881a-11a0f83cae34",
+      "comment": "",
+      "command": "click",
+      "target": "id=Pass",
+      "targets": [
+        ["id=Pass", "id"],
+        ["name=Pass", "name"],
+        ["css=#Pass", "css:finder"],
+        ["xpath=//input[@id='Pass']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d88a90d9-bd8b-4aad-8d90-8ab01bf07041",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//input[@value='Đăng nhập']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "82507167-23cc-4053-b8e5-43999a18afc5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card-body > div:nth-child(2)",
+      "targets": [
+        ["css=.card-body > div:nth-child(2)", "css:finder"],
+        ["xpath=//div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "690ddcad-e9a3-4c47-8c32-8ff4c5c6803b",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.card-body > div:nth-child(2)",
+      "targets": [
+        ["css=.card-body > div:nth-child(2)", "css:finder"],
+        ["xpath=//div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": "Mật khẩu trống"
+    }, {
+      "id": "8202153b-3f58-44fd-aaf2-37de63ed285b",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "ceb3bf25-f5ba-494c-bd31-d014fe27ad8a",
+    "name": "TC4",
+    "commands": [{
+      "id": "0b3dc6c7-839e-412c-a3a8-f0cfa49a6cc8",
+      "comment": "",
+      "command": "open",
+      "target": "https://localhost:44301/LogIn/DangNhap",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "28b5b98b-1f5a-41f0-8201-7ab6bd237e5a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "610x800",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f082ca13-b113-4502-a9a7-f88183576ea8",
+      "comment": "",
+      "command": "click",
+      "target": "id=User",
+      "targets": [
+        ["id=User", "id"],
+        ["name=User", "name"],
+        ["css=#User", "css:finder"],
+        ["xpath=//input[@id='User']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a593a8fb-cabb-4872-9bc7-4b681a155a37",
+      "comment": "",
+      "command": "type",
+      "target": "id=User",
+      "targets": [
+        ["id=User", "id"],
+        ["name=User", "name"],
+        ["css=#User", "css:finder"],
+        ["xpath=//input[@id='User']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "admin@gmail.com"
+    }, {
+      "id": "f6624b4d-e914-4ca7-8be9-b71594b4e008",
+      "comment": "",
+      "command": "click",
+      "target": "id=Pass",
+      "targets": [
+        ["id=Pass", "id"],
+        ["name=Pass", "name"],
+        ["css=#Pass", "css:finder"],
+        ["xpath=//input[@id='Pass']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b4ab4db-8d72-4f7b-8402-33bc87c94760",
+      "comment": "",
+      "command": "type",
+      "target": "id=Pass",
+      "targets": [
+        ["id=Pass", "id"],
+        ["name=Pass", "name"],
+        ["css=#Pass", "css:finder"],
+        ["xpath=//input[@id='Pass']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "123"
+    }, {
+      "id": "481f3f8c-e5d9-45bc-8333-6f86c9897114",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//input[@value='Đăng nhập']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "925b0b13-44d6-46ed-b956-ee3598688665",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card-body > div:nth-child(2)",
+      "targets": [
+        ["css=.card-body > div:nth-child(2)", "css:finder"],
+        ["xpath=//div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "98b6648f-552b-4b87-a305-aeff98ff711a",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.card-body > div:nth-child(2)",
+      "targets": [
+        ["css=.card-body > div:nth-child(2)", "css:finder"],
+        ["xpath=//div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": "Mật khẩu sai"
+    }, {
+      "id": "344a6f64-5931-4f3d-8de6-23c3585c30e3",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "c1ca3be7-e83a-4f36-8762-046f67fe2e96",
+    "name": "TC5",
+    "commands": [{
+      "id": "0b0e4f46-9843-4fc8-88ba-4a1fa641744c",
+      "comment": "",
+      "command": "open",
+      "target": "https://localhost:44301/LogIn/DangNhap",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ddecc81e-1199-42d1-beae-09d7d004df18",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "614x803",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "711126a4-6e70-4cb5-85a2-c1aa95f3aaeb",
+      "comment": "",
+      "command": "click",
+      "target": "id=User",
+      "targets": [
+        ["id=User", "id"],
+        ["name=User", "name"],
+        ["css=#User", "css:finder"],
+        ["xpath=//input[@id='User']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "54940a3b-49c6-49a1-bf0c-0c1a9bd22e7e",
+      "comment": "",
+      "command": "type",
+      "target": "id=User",
+      "targets": [
+        ["id=User", "id"],
+        ["name=User", "name"],
+        ["css=#User", "css:finder"],
+        ["xpath=//input[@id='User']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "abc@gmail.com"
+    }, {
+      "id": "c821927e-2ac3-4479-b1f3-2ed17237784a",
+      "comment": "",
+      "command": "click",
+      "target": "id=Pass",
+      "targets": [
+        ["id=Pass", "id"],
+        ["name=Pass", "name"],
+        ["css=#Pass", "css:finder"],
+        ["xpath=//input[@id='Pass']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e121c4ce-3042-4411-a9d9-8713ccaf0c47",
+      "comment": "",
+      "command": "type",
+      "target": "id=Pass",
+      "targets": [
+        ["id=Pass", "id"],
+        ["name=Pass", "name"],
+        ["css=#Pass", "css:finder"],
+        ["xpath=//input[@id='Pass']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "123"
+    }, {
+      "id": "3d95a6fd-53f2-4c90-a83b-93e65d161823",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//input[@value='Đăng nhập']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1276e7b9-9aac-43e7-9b90-10ed47518029",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card-body > div:nth-child(2)",
+      "targets": [
+        ["css=.card-body > div:nth-child(2)", "css:finder"],
+        ["xpath=//div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec232fea-7fea-49e7-af4b-21d5aef57a37",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.card-body > div:nth-child(2)",
+      "targets": [
+        ["css=.card-body > div:nth-child(2)", "css:finder"],
+        ["xpath=//div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": "Tài khoản không tồn tại"
+    }, {
+      "id": "380dca36-9095-4175-a06c-f1d48e7b7701",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "28dee088-54fb-4aec-9a9d-c8d9f6269738",
+    "name": "TC6",
+    "commands": [{
+      "id": "3948281f-7c1b-45a1-a69a-7f4e39383f1e",
+      "comment": "",
+      "command": "open",
+      "target": "https://localhost:44301/LogIn/DangNhap",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e19f1a3c-3132-4092-8de8-dc9ab49efa9f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "621x804",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dc7ef5ad-0bfa-4501-9996-db8b44c627f0",
+      "comment": "",
+      "command": "click",
+      "target": "id=User",
+      "targets": [
+        ["id=User", "id"],
+        ["name=User", "name"],
+        ["css=#User", "css:finder"],
+        ["xpath=//input[@id='User']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "128d1858-711f-443d-93e1-70e70d702e51",
+      "comment": "",
+      "command": "type",
+      "target": "id=User",
+      "targets": [
+        ["id=User", "id"],
+        ["name=User", "name"],
+        ["css=#User", "css:finder"],
+        ["xpath=//input[@id='User']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "quantri@gmail.com"
+    }, {
+      "id": "b078a1e3-a135-466f-bc6f-9ae6d574a383",
+      "comment": "",
+      "command": "click",
+      "target": "id=Pass",
+      "targets": [
+        ["id=Pass", "id"],
+        ["name=Pass", "name"],
+        ["css=#Pass", "css:finder"],
+        ["xpath=//input[@id='Pass']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "31b7e69a-ff5c-4390-83ae-e71dc096f778",
+      "comment": "",
+      "command": "type",
+      "target": "id=Pass",
+      "targets": [
+        ["id=Pass", "id"],
+        ["name=Pass", "name"],
+        ["css=#Pass", "css:finder"],
+        ["xpath=//input[@id='Pass']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Quantri123456"
+    }, {
+      "id": "33afa974-eac4-49f3-890f-c06e1d51aae9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//input[@value='Đăng nhập']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e52be98f-b263-4489-96a9-b8740398c2e1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card-body",
+      "targets": [
+        ["css=.card-body", "css:finder"],
+        ["xpath=//div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "197a7611-d6a1-470a-884b-fb79eebf2917",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.card-body > div:nth-child(2)",
+      "targets": [
+        ["css=.card-body > div:nth-child(2)", "css:finder"],
+        ["xpath=//div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": "Tài khoản bị vô hiệu hóa"
+    }, {
+      "id": "49c50326-c401-4d97-a4cb-631c40273905",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "cc8c8f87-f86d-46c7-981e-1116f3eca3a2",
+    "name": "TC7",
+    "commands": [{
+      "id": "78fc9949-9f0b-4770-9a92-a8d540e21bef",
+      "comment": "",
+      "command": "open",
+      "target": "https://localhost:44301/LogIn/DangNhap",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f22a09cf-8e72-4cc9-8196-bc7e412d0c51",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "622x804",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cc6a39c1-c8be-42e5-84d2-2091bcef54d2",
+      "comment": "",
+      "command": "click",
+      "target": "id=User",
+      "targets": [
+        ["id=User", "id"],
+        ["name=User", "name"],
+        ["css=#User", "css:finder"],
+        ["xpath=//input[@id='User']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c33544c3-37af-499f-aaeb-b7f112e3e492",
+      "comment": "",
+      "command": "type",
+      "target": "id=User",
+      "targets": [
+        ["id=User", "id"],
+        ["name=User", "name"],
+        ["css=#User", "css:finder"],
+        ["xpath=//input[@id='User']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "admin@gmail.com"
+    }, {
+      "id": "1ed9ccc6-a1ff-47c3-b77d-52929c78087b",
+      "comment": "",
+      "command": "click",
+      "target": "id=Pass",
+      "targets": [
+        ["id=Pass", "id"],
+        ["name=Pass", "name"],
+        ["css=#Pass", "css:finder"],
+        ["xpath=//input[@id='Pass']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c23aa7dd-862f-434e-b3bb-4f1e9b7aae5e",
+      "comment": "",
+      "command": "type",
+      "target": "id=Pass",
+      "targets": [
+        ["id=Pass", "id"],
+        ["name=Pass", "name"],
+        ["css=#Pass", "css:finder"],
+        ["xpath=//input[@id='Pass']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Tuan870611"
+    }, {
+      "id": "d9291f21-05a2-4614-a900-620d3c816996",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//input[@value='Đăng nhập']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a3a113f0-fd01-451b-b865-d033d20e2b4f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card-body",
+      "targets": [
+        ["css=.card-body", "css:finder"],
+        ["xpath=//div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ad5270a-c5d4-4edd-966e-7bc19bf8feaf",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.card-body > div:nth-child(3)",
+      "targets": [
+        ["css=.card-body > div:nth-child(3)", "css:finder"],
+        ["xpath=//div[2]/div[2]", "xpath:position"]
+      ],
+      "value": "Đăng nhập thành công"
+    }, {
+      "id": "7734aa6f-d25d-44f1-a8fb-8be54e2bbcbf",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "f60580da-cdc4-412c-83d2-8e36710fa5fb",
+    "name": "TC8",
+    "commands": [{
+      "id": "25547f54-a464-407c-a89b-f108d56031c0",
+      "comment": "",
+      "command": "open",
+      "target": "https://localhost:44301/LogIn/DangNhap",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3c0b44f9-b13c-4190-b2ef-da002b307af7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "584x800",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9032e445-3300-4332-9c13-26ab17c44f9c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Quên mật khẩu?",
+      "targets": [
+        ["linkText=Quên mật khẩu?", "linkText"],
+        ["css=.d-flex > .small", "css:finder"],
+        ["xpath=//a[contains(text(),'Quên mật khẩu?')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'password')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Quên mật khẩu?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c730ffe8-87ca-4b17-ac79-f0717e3f4287",
+      "comment": "",
+      "command": "click",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8944e5e0-f31c-4a57-8f89-ade81952726b",
+      "comment": "",
+      "command": "verify",
+      "target": "css=h1",
+      "targets": [],
+      "value": "Quên mật khẩu"
+    }]
+  }],
+  "suites": [{
+    "id": "c4431acf-c0ae-4d08-b6e8-b97eee140c4f",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["4ae3916a-e199-4fab-962e-022acfab1455"]
+  }],
+  "urls": ["https://localhost:44301/", "https://localhost:44301/LogIn/DangNhap"],
+  "plugins": []
+}
